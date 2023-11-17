@@ -2,8 +2,7 @@
 int main(void){
     
     printf("HelloWorl!gnimmargorP C ot emocleW\n");
-    printf("hello rana\n");
-
+    
     int x=10,y=2*x,z=x+y;
 
     printf("x=%d\n",x);
@@ -11,8 +10,7 @@ int main(void){
     printf("z=%d\n",z);
 
     int price=500;
-    double result=price*1.1;
 
-    printf("result=%7f\n",result);
+    printf("result=%f\n",price*1.1);
     return 0; 
 }
